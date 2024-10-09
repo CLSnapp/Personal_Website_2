@@ -1,0 +1,139 @@
+html {
+  background-color: #000000;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: rgb(0, 183, 255);
+  padding: 0 1em 0 1em;
+  border-style: solid;
+  border-width: 0 0 0.25em 0;
+  border-color: rgb(71, 234, 255);
+}
+
+.header a {
+  float: left;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 3px;
+}
+
+/* when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: right;
+  }
+}
+
+.header .name {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px 3px;
+}
+
+.header a:hover {
+  background-color: rgb(71, 234, 255);
+  color: rgb(0, 0, 0);
+}
+
+.header a.active {
+  background-color: rgb(71, 234, 255);
+  color: rgb(0, 0, 0);
+}
+
+.header-right {
+  float: right;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20pt;
+  color: rgb(71, 234, 255);
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  color: rgb(0, 183, 255);
+  font-size: 30px;
+  text-align: auto;
+  position: relative;
+}
+
+img {
+  float: right;
+  border: 5px solid rgb(71, 234, 255);
+  width: 35vh;
+  max-width: fit-content;
+  margin: 30px 0px 10px 10px;
+}
+
+section {
+  padding: 65px 24px 96px;
+  box-shadow: 0 0 12px -2px rgb(0, 183, 255);
+}
+
+section .quote {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif cursive;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 100;
+  text-shadow: 1px 1px 2px rgb(0, 183, 255);
+  text-align: center;
+  margin-top: 2em;
+}
+
+/*Used img instead of individual
+.about-section p:nth-of-type(2n) > .running-picture {
+  float: right;
+}
+
+.about-section p:nth-of-type(2n +) > .collecting-picture {
+  float: right;
+}
+
+.about-section p:nth-of-type(2n) > .bowling-picture {
+  float: right;
+}*/
+
+.about-quote {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif cursive;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 100;
+  text-shadow: 1px 1px 2px rgb(0, 183, 255);
+  text-align: center;
+  margin-top: 1em;
+}
+
+.about-section p {
+  font-size: 16pt;
+}
+
+.portfolio-quote {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif cursive;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 100;
+  text-shadow: 1px 1px 2px rgb(0, 183, 255);
+  text-align: center;
+  margin-top: 1em;
+}
+
+.project-section p {
+  font-size: 16pt;
+}
