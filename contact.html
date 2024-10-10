@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="javascript.js"></script>
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <!-- Main Header -->
+  <div class="header">
+    <!-- Link Header -->
+    <div class="header-right">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+
+    <!-- Left Box Logo -->
+    <div class="name">CLSnapp</div>
+  </div>
+
+  <div class="contact"><h1>Contact Me:</h1></div>
+
+  <form id="form">
+    <div>
+      <label for="name">Name:</label><br />
+      <input id="name" type="text" name="name" />
+    </div>
+
+    <br />
+
+    <div>
+      <label for="email">Email:</label><br />
+      <input id="email" type="email" name="email" />
+    </div>
+
+    <br />
+
+    <div>
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="7" cols="50"></textarea>
+    </div>
+
+    <div class="button">
+      <button type="submit" id="submit">Submit</button>
+    </div>
+  </form>
+</html>
