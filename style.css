@@ -26,7 +26,7 @@ html {
   border-radius: 3px;
 }
 
-/* when the screen is 500px wide or less, stack the links on top of each other */
+/* when the screen is 500px wide or less, stack the links on top of each other (MOBILE) */
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
