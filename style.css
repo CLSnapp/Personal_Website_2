@@ -119,6 +119,13 @@ section .quote {
   float: right;
 }*/
 
+.about-quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
 .about-quote {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif cursive;
   color: rgb(255, 255, 255);
